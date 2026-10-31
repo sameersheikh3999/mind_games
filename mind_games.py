@@ -14,6 +14,7 @@ print(students[i][j])
             
 
 print("Some of the changes requires more changes")
+print("Now I need to build something new in order to get everything upfront")
 
                          
             
