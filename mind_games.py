@@ -1,22 +1,32 @@
 if __name__ == '__main__':
 
     n=int(input())
-    result=[]
+    students=[]
 
     if n>=2 and n<=5:
 
-    for i in range(n):
-        for j in range(i+1,n):
-            students[i]=int(input())
-            students[j]=int(input())
+     
+        for _ in range(n):
+            name = input()
+            score = float(input())
 
-print(students[i][j])            
+            students.append([name,score])
+
+
+students.sort(key=lambda x: x[1])
+print(students[1])
             
+      
+       
 
-print("Some of the changes requires more changes")
-print("Now I need to build something new in order to get everything upfront")
-print("I need to understand it more clearly")
-print("Some commits are more important than others")
+    
+
+
+
+
+        
+
+
 
                          
             
