@@ -13,7 +13,12 @@ if __name__ == '__main__':
             students.append([name,score])
 
 
-students.sort(key=lambda x: x[1])
+for i in range(len(students)):
+    for j in range(i + 1, len(students)):
+        if students[i][1] > students[j][1]:
+            students[i], students[j] = students[j], students[i]
+
+            
 print(students[1])
             
       
