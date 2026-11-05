@@ -1,6 +1,7 @@
 if __name__ == '__main__':
 
     n=int(input())
+    unique_scores=set()
     students=[]
 
     if n>=2 and n<=5:
@@ -19,23 +20,24 @@ for i in range(len(students)):
             students[i], students[j] = students[j], students[i]
 
 
-print(students[1])
-
-print("Something needs to change right now")
-print("This is only to add the commit contribution")
-print("The work is finally done, now we need to focus on the next task")
-      
-       
-
-    
 
 
+for i in range(len(students)):
+    unique_scores.add(students[i][1])
+
+unique_scores=list(unique_scores)
+
+second_lowest=unique_scores[1]
 
 
-        
+names=[]
+for i in range(len(students)):
+    if students[i][1]==second_lowest:
+        names.append(students[i][0])
 
-
-
+names.sort()
+for i in range(len(names)):
+    print(names[i])
                          
             
                 
