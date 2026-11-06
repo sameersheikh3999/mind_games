@@ -39,5 +39,8 @@ names.sort()
 for i in range(len(names)):
     print(names[i])
                          
+
+
+print("This solution has been sorted")
             
                 
