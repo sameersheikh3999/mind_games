@@ -5,3 +5,5 @@ a=sum(marks)/len(marks)
 rounded=round(a,2)
 
 print(rounded)
+
+print("I really want to solve a new problem today")
