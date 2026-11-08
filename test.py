@@ -1,11 +1,25 @@
-marks=[3,2,3]
+if __name__ == '__main__':
+    N = int(input())
+    arr=[]
+    for i in range(N):
+        command=input().split()
+        a=command[0]
+        
 
-a=sum(marks)/len(marks)
+        if a=="insert":
+            arr.insert(int(command[1]),int(command[2]))
+        elif a=="append":
+            arr.append(int(command[1]))
+        elif a=="remove":
+            arr.remove(int(command[1]))
+        elif a=="print":
+            print(arr)
+        elif a=="sort":
+            arr.sort()
+        elif a=="pop":
+            arr.pop()
+        elif a=="revers":
+            arr.reverse()
 
-rounded=round(a,2)
 
-print(rounded)
-
-print("I really want to solve a new problem today")
-
-print("I really want to add value to whatever I can do and do somehting supportive out of it")
+        
