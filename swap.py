@@ -11,3 +11,5 @@ for char in s:
         r+=char.upper()
 
 print(r)
+
+print("I do belive I completed this but I need to understand this first")

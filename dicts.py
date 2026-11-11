@@ -13,3 +13,4 @@ average=sum(marks_list)/len(marks_list)
 rounded=f"{average:.2f}"
 
 print(rounded)
+

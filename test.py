@@ -18,7 +18,7 @@ if __name__ == '__main__':
             arr.sort()
         elif a=="pop":
             arr.pop()
-        elif a=="revers":
+        elif a=="reverse":
             arr.reverse()
 
 
