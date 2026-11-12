@@ -1,11 +1,11 @@
-def add_patient_data(name:str, age: int):
-    if type(name) == str and type(age) == int:
-        print(name)
-        print(age)
-        print("Data added successfully to the database!")
-    else:
-        raise TypeError("Invalid data type for name or age. Name should be a string")
+from pydantic import BaseModel
 
+class PatientData(BaseModel):
+    name: str  
+    age: int
 
-add_patient_data("Sameer","27")
+    def add_patient_data(patient: PatientData)
+        pass
 
+    patient_data={"name": "Sameer", "age": 27}
+    print("I hope I have added something in the repository")
