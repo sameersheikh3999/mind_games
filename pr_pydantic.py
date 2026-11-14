@@ -18,9 +18,21 @@ def update_patient_data(patient: PatientData):
 patient_data={"name": "Sameer", "age": 27}
 # patient=PatientData(**patient_data)
 patient_1=PatientData(**patient_data)
-
-
 update_patient_data(patient_1)
+
+
+
+patient_data={"name": "Alex", "age": 25}
+patient_2=PatientData(**patient_data)
+update_patient_data(patient_2)
+
+
+
+
+update_patient_data(patient_2)
+
+
+
 
 
  
