@@ -3,26 +3,29 @@ from pydantic import BaseModel
 class PatientData(BaseModel):
     name: str  
     age: int
+    weight: float 
 
 def add_patient_data(patient: PatientData):
         print(patient.name)
         print(patient.age)
+        print(patient.weight)
         print("Data added successfully")
         
 def update_patient_data(patient: PatientData):
         print(patient.name)
         print(patient.age)
+        print(patient.weight)
         print("Data updated successfully in the database!")
         
 
-patient_data={"name": "Sameer", "age": 27}
+patient_data={"name": "Sameer", "age": 27, "weight":70.5}
 # patient=PatientData(**patient_data)
 patient_1=PatientData(**patient_data)
 update_patient_data(patient_1)
 
 
 
-patient_data={"name": "Alex", "age": 25}
+patient_data={"name": "Alex", "age": "25", "weight":70.5}
 patient_2=PatientData(**patient_data)
 update_patient_data(patient_2)
 
