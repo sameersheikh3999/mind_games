@@ -9,3 +9,4 @@ class PatientData(BaseModel):
 
     patient_data={"name": "Sameer", "age": 27}
     print("I hope I have added something in the repository")
+    print("Right now I am learning it with the tutorial")
