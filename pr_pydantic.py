@@ -65,6 +65,8 @@ patient_data={"name": "Sameer Sheikh", "email":"sameersheikh2999@bankalfalah.com
 patient_1=PatientData(**patient_data)
 update_patient_data(patient_1)
 
+print("Yesterday learnt a lot on this and it was really amazing what I exeperienced learning all of this")
+
 
 
 
