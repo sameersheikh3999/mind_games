@@ -2,9 +2,14 @@ def count_substring(string, sub_string):
     c=0
 
     for i in range(0, len(string)):
+        j=i%len(string) 
 
-        if string[i]==sub_string[i]:
-            c=+1
+       
+    
+
+        if string[i]==sub_string[j]:
+                c=+1
+                
     return c
 
 
@@ -16,3 +21,4 @@ if __name__=="__main__":
     print(count)
 
 print("I am trying to solve this problem right now")
+print("Still not solved")
