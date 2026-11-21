@@ -22,3 +22,4 @@ if __name__=="__main__":
 
 print("I am trying to solve this problem right now")
 print("Still not solved")
+print("things it up")
