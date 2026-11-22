@@ -20,8 +20,4 @@ if __name__=="__main__":
     count=count_substring(string, sub_string)
     print(count)
 
-print("I am trying to solve this problem right now")
-print("Still not solved")
-print("things it up")
-print("Now do something new")
-print("I need to commit something more")
+print("Now, this is the time to practice")
