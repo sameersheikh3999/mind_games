@@ -21,3 +21,4 @@ if __name__=="__main__":
     print(count)
 
 print("Now, this is the time to practice, and do something that I like")
+print("Now go for the second commit")
