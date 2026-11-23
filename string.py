@@ -20,4 +20,4 @@ if __name__=="__main__":
     count=count_substring(string, sub_string)
     print(count)
 
-print("Now, this is the time to practice")
+print("Now, this is the time to practice, and do something that I like")
