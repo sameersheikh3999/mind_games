@@ -23,3 +23,4 @@ if __name__=="__main__":
 print("Now, this is the time to practice, and do something that I like")
 print("Now go for the second commit")
 print("Now go for the third commit")
+print("Do something commit")
