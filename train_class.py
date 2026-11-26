@@ -1,23 +1,22 @@
-from re import S
+from random import randint
 
 
 class Train():
-    fare=2000
-    ticket=3123
 
-    def book_ticket(self):
-        print("Your ticket is booked")
+    def __init__(self, trainNo):
+        self.trainNo=trainNo
+    
+    def book(self, fro, to):
+        print(f"The ticket is booked in train No {self.trainNo} from {fro} to {to}")
 
-    def get_status(self):
-        print(f"This shows the status of the ticket no {self.ticket} ")
+    def getStatus(self):
+        print(f"Train No {self.trainNo} is running on time")
 
-    def get_fare(self):
-        print(f"Your fare is {self.fare}")
+    def getFare(self, fro, to):
+        print(f"Ticket fare in train no: {self.trainNo} from {fro} to {to} is {randint(1999,2026)}")
 
 
-sameer=Train()
-
-sameer.book_ticket()
-sameer.get_status()
-sameer.get_fare()
-
+t=Train(1299)
+t.book("Lahore", "Islamabad")
+t.getStatus()
+t.getFare("Lahore", "Islamabad")
