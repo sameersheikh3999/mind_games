@@ -18,3 +18,4 @@ print(nums.twoSum([2,7,11,15],9))
 
 print(" I am interested in learning something new right now ")
 print("Something that is going to be considered useful")
+print("Now, I can say I have learned something new today ")
